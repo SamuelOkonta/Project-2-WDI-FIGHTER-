@@ -1,23 +1,22 @@
 // const Comment = require('../models/commentController.js')
-const User = require('../controllers/userController.js')
+const User = require('../models/User')
 // const Character = require('../models/characterController.js')
 
 const userController = {
     index: (req, res) => {
-       
         User.find()
             .populate('comment')
             .then(users => {
-                res.render('users/index', { users })
+                res.render('user/index', { users })
             })
     },
     new: (req, res) => {
-        res.render('users/new')
+        res.render('user/new')
     },
     show: (req, res) => {
         User.findById(req.params.userId).populate('comment')
             .then(user => {
-                res.render('users/show', { user })
+                res.render('user/show', { user })
 
             })
     },

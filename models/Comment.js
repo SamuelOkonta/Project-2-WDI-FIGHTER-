@@ -5,6 +5,7 @@ const CommentSchema = new Schema({
     name: String,
     category: String,
     description: String,
+    content: String,
     
     author: {
         type: Schema.Types.ObjectId,

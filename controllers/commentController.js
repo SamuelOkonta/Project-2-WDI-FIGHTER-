@@ -9,16 +9,17 @@ const commentController = {
         Comment.find()
             .populate('comment')
             .then(comments => {
-                res.render('comments/index', { comments })
+                res.render('comment/index', { comments })
             })
     },
     new: (req, res) => {
-        res.render('comments/new', { userId: req.params.userId })
+        res.render('comment/new', { userId: req.params.userId })
     },
     show: (req, res) => {
         Comment.findById(req.params.commentId).populate('comment')
             .then(comment => {
-                res.render('comments/show', { discussion, userId: req.params.userId })
+                console.log(comment)
+                res.render('comment/show', { comment, userId: req.params.userId })
             })
     },
     create: (req, res) => {
@@ -34,7 +35,7 @@ const commentController = {
         User.findById()
         Comment.findById(req.params.commentId)
         .then(comment => {
-            res.render('comments/edit', {
+            res.render('comment/edit', {
                 comment,
                 userId: req.params.userId,
                 commentId: req.params.commentId

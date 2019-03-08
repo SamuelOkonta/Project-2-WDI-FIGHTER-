@@ -19,6 +19,7 @@ router.delete('/characters/:characterId', characterController.delete)
 router.get('/users', userController.index)
 
 router.get('/comment', commentController.index)
+rou
 
 
 
@@ -34,7 +35,7 @@ router.delete('/users/:userId', userController.delete)
 
 router.get('/users/:userId/comment/new', commentController.new)
 
-router.post('/users/:userId/comment', commentController.create)
+router.post('/users/:userId/comments', commentController.create)
 
 router.get('/users/:userId/comments/:commentId', commentController.show)
 

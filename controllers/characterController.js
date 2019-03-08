@@ -16,7 +16,7 @@ const characterController = {
     },
     create: (req, res) => {
         character.create(req.body).then(character => {
-            res.redirect("/")
+            res.redirect('/')
         })
     },
     show: (req, res) => {
