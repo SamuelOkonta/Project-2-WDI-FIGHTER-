@@ -19,10 +19,10 @@ This application has:
 6. Deployed online and accessible to the public via Heroku
 
 ## Wireframe & ERD
-<a href="https://imgur.com/user/whatupike/posts"><img src="https://i.imgur.com/2cn6hRE.jpg"/></a>
+<a href="https://imgur.com/user/whatupike/posts"><img src="https://imgur.com/aSfUr6J"/></a>
 
 
-<a href="https://imgur.com/user/whatupike/posts"><img src="https://i.imgur.com/2cn6hRE.jpg"/></a>
+<a href="https://imgur.com/user/whatupike/posts"><img src="https://imgur.com/GzWvPEA"/></a>
 
 ## Technologies Used
 Languages: HTML, CSS, JavaScript, Handle Bars, Node.js, Express, MongoDB, Mongoose
