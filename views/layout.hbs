@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>WDI Fighters</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+ </head>
+ 
+
+ <body>
+   <nav class="navbar navbar-default">
+     <div class="container">
+       <!-- Brand and toggle get grouped for better mobile display -->
+       <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+           <span class="sr-only">Toggle navigation</span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+           <span class="icon-bar"></span>
+         </button>
+         <a class="navbar-brand" href="/">WDI Fighters</a>
+       </div>
+
+       <!-- Collect the nav links, forms, and other content for toggling -->
+       <div class="collapse navbar-collapse" id="user-menu">
+<ul class="nav navbar-nav">
+ {{#if currentUser}}
+   <li><a href="/logout">Logout {{currentUser.local.email}}</a></li>
+ {{else}}
+   <li><a href="/login">Login</a></li>
+   <li><a href="/signup">Signup</a></li>
+   <li><a href="/secret">Secret Page</a></li>
+ {{/if}}
+</ul>
+       </div><!-- /.navbar-collapse -->
+     </div><!-- /.container-fluid -->
+   </nav>
+
+   <main class="container">
+     {{{body}}}
+   </main>
+
+ </body>
+</html>
+
+
+
+
+
+
+
+
+
+{{!-- 
+
+<h1>
+
+
+  <title>General Assembly 2019</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0 user-scalable=no">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Permanent+Marker" rel="stylesheet">
+</head>
+
+<body>
+
+  <section class="splash-screen load">
+    <div class="title">
+      <h1 class="title-top"><span class="big">W</span>di</h1>
+      <h1 class="title-bottom"><span class="big">F</span>ighter<span class="big">S</span></h1>
+      
+    </div>
+
+    <div class="buttons grey-with-red">
+      <a class="purple-with-blue">Push start button</a>
+      
+    </div>
+
+    <div class="bottom">
+      <a href="mailto:linxea.linxea@gmail.com">
+        <span class="yellow">©</span>
+        <span class="yellow-with-darkyellow"> General Assembly 2019</span></a>
+     
+  </section>
+
+</body>
+
+</h1> --}}
+

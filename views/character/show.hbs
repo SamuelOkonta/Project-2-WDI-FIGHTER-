@@ -1,0 +1,15 @@
+<div class="container">
+    <h2 class="text-center">{{character.name}}</h2>
+    <div class="text-center">
+        <img class="shop-img-banner" src={{character.imgLink}} alt="">
+    </div>
+    <div class="text-center">
+        <a class="action-btn btn btn-info" href="/{{character.id}}/edit">EDIT</a>
+        <form class="delete-form"action="/{{character.id}}?_method=DELETE" method="POST">
+            <input class="action-btn btn btn-danger" type="submit" value="DELETE">
+        </form>
+    </div>
+    <p>{{character.description}}</p>
+
+    </div>
+</div>

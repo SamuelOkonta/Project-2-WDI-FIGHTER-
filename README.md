@@ -7,7 +7,7 @@
 </ul>
 
 ## Overview
-Simon Says is a game that displays 4 colored buttons (or clickable areas) that light up and play a sound. Have the computer play a random sequence, starting with a length of 1 and growing with each round. If the user can replay the sequence by clicking on the colored buttons in the correct order, then the computer goes to the next round and the sequence gets longer (same sequence but with one new randomly generated selection added to the end).
+The concept of this Project is quite simple I took inspiration
 
 ## How To Play
 1. Press start to display to highlight a random box.
