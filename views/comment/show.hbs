@@ -1,0 +1,19 @@
+<h2>Comment!</h2>
+
+{{#each comments}}
+<p>{{content}}</p>
+
+{{/each}}
+<div class="card">
+    <div class="card-content">
+        <p>
+            {{comment.content}}
+        </p>
+        <a href="/users/{{userId}}/comments/{{comment._id}}/edit">
+            <button class="action-btn btn btn-danger">Edit</button>
+        </a>
+        <form action="/users/{{userId}}/comments/{{comment._id}}?_method=DELETE" method="POST">
+            <button class="action-btn btn btn-danger">DELETE</button>
+        </form>
+    </div>
+</div>

@@ -1,7 +1,7 @@
 
 const express = require('express')
 const router = express.Router()
-const applicationController = require('../controllers/applicationController')
+// const applicationController = require('../controllers/applicationController')
 const characterController = require('../controllers/characterController.js')
 const userController = require('../controllers/userController.js')
 const commentController = require('../controllers/commentController')
@@ -10,10 +10,10 @@ const commentController = require('../controllers/commentController')
 router.get('/', characterController.index)
 router.get('/new', characterController.new)
 router.post('/', characterController.create)
-router.get('/:characterId', characterController.show)
-router.get('/:characterId/edit', characterController.edit)
-router.put('/:characterId', characterController.update)
-router.delete('/:characterId', characterController.delete)
+router.get('/characters/:characterId', characterController.show)
+router.get('/characters/:characterId/edit', characterController.edit)
+router.put('/characters/:characterId', characterController.update)
+router.delete('/characters/:characterId', characterController.delete)
 
 
 router.get('/users', userController.index)

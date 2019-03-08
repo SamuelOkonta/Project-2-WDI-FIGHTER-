@@ -1,4 +1,6 @@
-const User = require('../models/User')
+// const Comment = require('../models/commentController.js')
+const User = require('../controllers/userController.js')
+// const Character = require('../models/characterController.js')
 
 const userController = {
     index: (req, res) => {

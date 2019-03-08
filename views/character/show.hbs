@@ -4,8 +4,8 @@
         <img class="shop-img-banner" src={{character.imgLink}} alt="">
     </div>
     <div class="text-center">
-        <a class="action-btn btn btn-info" href="/{{character.id}}/edit">EDIT</a>
-        <form class="delete-form"action="/{{character.id}}?_method=DELETE" method="POST">
+        <a class="action-btn btn btn-info" href="/characters/{{character.id}}/edit">EDIT</a>
+        <form class="delete-form"action="/characters/{{character.id}}?_method=DELETE" method="POST">
             <input class="action-btn btn btn-danger" type="submit" value="DELETE">
         </form>
     </div>

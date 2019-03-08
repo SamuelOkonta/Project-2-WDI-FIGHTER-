@@ -1,0 +1,10 @@
+{#each comments}}
+<div class="card">
+    <div class="card-content">
+        <a class="card-title" href="/users/{{userId}}/comments/{{comment._id}}">
+        </a>
+        <a href="/{{id}}">{{name}}</a>
+        {{!-- <input class="action-btn btn btn-danger" type="submit" value="DELETE"> --}}
+    </div>
+</div>
+{{/each}}
