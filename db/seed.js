@@ -6,7 +6,7 @@ const Bison = new Character({
     name: "Bison",
     category: "Pressure",
     description: " He is a self-imposed dictator and megalomaniac seeking world domination. ",
-    imgLink: "https://www.fightersgeneration.com/nz7/game/sfv/story-costumes/mbison-sfv-story-costume-artwork.jpg",
+    imgLink: "https://www.fightersgeneration.com/nz9/game/sfv/art/mbison-sfv-altcostume-concept1.png",
     
 });
 

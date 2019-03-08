@@ -19,7 +19,8 @@ router.delete('/characters/:characterId', characterController.delete)
 router.get('/users', userController.index)
 
 router.get('/comment', commentController.index)
-rou
+// router.get('/comment/:commentId/edit', commentController.edit)
+// router.put('/comment/:commentId', commentController.update)
 
 
 

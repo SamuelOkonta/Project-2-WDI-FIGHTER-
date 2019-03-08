@@ -18,14 +18,13 @@ const commentController = {
     show: (req, res) => {
         Comment.findById(req.params.commentId).populate('comment')
             .then(comment => {
-                console.log(comment)
                 res.render('comment/show', { comment, userId: req.params.userId })
             })
     },
     create: (req, res) => {
         User.findById(req.params.userId).then((user) => {
             Comment.create(req.body).then(comment => {
-                user.comment.push(comment)
+                user.discussion.push(comment)
                 user.save()
                 res.redirect(`/users/${req.params.userId}/comments/${comment._id}`)
             })
@@ -35,7 +34,7 @@ const commentController = {
         User.findById()
         Comment.findById(req.params.commentId)
         .then(comment => {
-            res.render('comment/edit', {
+            res.render('comments/edit', {
                 comment,
                 userId: req.params.userId,
                 commentId: req.params.commentId

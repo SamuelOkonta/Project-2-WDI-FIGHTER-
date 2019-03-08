@@ -35,7 +35,7 @@ const characterController = {
     update: (req, res) => {
         //Need to pass {new:true} as the third argument in order to get theupdated shop from the db
         Character.findByIdAndUpdate(req.params.characterId, req.body, { new: true }).then(() => {
-            res.redirect(`/${req.params.characterId}`)
+            res.redirect(`/characters/${req.params.characterId}`)
         })
     },
     delete: (req, res) => {
