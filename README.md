@@ -1,13 +1,13 @@
 # Project 2 WDI Fighters
 
 <ul>
-<li>Project: https://dashboard.heroku.com/apps/cryptic-thicket-10914</li>
+<li>Project: https://floating-shore-60451.herokuapp.com/</li>
 <li>Trello Board: https://trello.com/b/uyUahpJ5/street-fighter-forum-project</li>
 <li>GitHub: https://github.com/SamuelOkonta/Project-2-WDI-FIGHTER-</li>
 </ul>
 
 ## Technical Specifications
-The concept of this Project is quite simple I took inspiration from Street Fighter, Tried to create something like a forum.
+The concept of this project is quite simple I took inspiration from Street Fighter, tried to create something like a forum.
 
 This application has:
 
