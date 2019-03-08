@@ -1,33 +1,36 @@
-# Project-1--Simon Says
+# Project 2 WDI Fighters
 
 <ul>
-<li>Project: https://dreamy-poincare-c25896.netlify.com</li>
-<li>Trello Board: https://trello.com/b/nSJ611qK/project-1-simon-says</li>
-<li>GitHub: https://github.com/SamuelOkonta/Project-1-Simon-Says</li>
+<li>Project: https://dashboard.heroku.com/apps/cryptic-thicket-10914</li>
+<li>Trello Board: https://trello.com/b/uyUahpJ5/street-fighter-forum-project</li>
+<li>GitHub: hhttps://github.com/SamuelOkonta/Project-2-WDI-FIGHTER-</li>
 </ul>
 
-## Overview
-The concept of this Project is quite simple I took inspiration
+## Technical Specifications
+The concept of this Project is quite simple I took inspiration from Street Fighter, Tried to create something like a forum.
 
-## How To Play
-1. Press start to display to highlight a random box.
-2. Select and match a box.
-3. If box selection is correct, a additionally random boxes will highlight in a growing sequence randomized.
+This application has:
 
-## Wireframe
+1. Three models – one representing someone using the application (a user), one representing a collection of projects (a portfolio) and a third model for the individual projects (a project).
+2. Complete RESTful routes for at least one resource (a project) with GET, POST, PUT, and DELETE.
+3. Uses Mongo queries and the Mongoose module to interact with a document database.
+4. Promises to help build more complex queries!
+5. Wireframes that were designed during the planning process.
+6. Deployed online and accessible to the public via Heroku
+
+## Wireframe & ERD
 <a href="https://imgur.com/user/whatupike/posts"><img src="https://i.imgur.com/2cn6hRE.jpg"/></a>
 
-## ERD
 
 <a href="https://imgur.com/user/whatupike/posts"><img src="https://i.imgur.com/2cn6hRE.jpg"/></a>
 
 ## Technologies Used
-Languages: HTML, CSS, jQuery
+Languages: HTML, CSS, JavaScript, Handle Bars, Node.js, Express, MongoDB, Mongoose
 
 ## Future Developments/Improvements
 <ul>
-<li>Create a "rules" button which will display the rules of the game</li>
-<li>When the sequence runs you'll hear a sound as well</li>
-<li>Display animation for each incorrect guess, using sweet alert 2</li>
-<li>when you pick an incorrect box you get the warning that you've lost the game</li>
+<li>Which that could have created my project initially how I wanted</li>
+<li>Properly setup passport on the application</li>
+<li>Have all my models connect</li>
+<li>Definitely style the page way better, I wanted to change the background color to red buy the street fighter logo has a background and it's white.</li>
 </ul>
