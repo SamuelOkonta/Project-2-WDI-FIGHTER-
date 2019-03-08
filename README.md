@@ -34,3 +34,9 @@ Languages: HTML, CSS, JavaScript, Handle Bars, Node.js, Express, MongoDB, Mongoo
 <li>Have all my models connect</li>
 <li>Definitely style the page way better, I wanted to change the background color to red buy the street fighter logo has a background and it's white.</li>
 </ul>
+
+## Special Thanks
+<ul>
+<li> The entire class, this project has been a complete struggle for me but I'm glad I got it done.</li>
+</ul>
+
