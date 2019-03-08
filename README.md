@@ -29,10 +29,11 @@ Languages: HTML, CSS, JavaScript, Handle Bars, Node.js, Express, MongoDB, Mongoo
 
 ## Future Developments/Improvements
 <ul>
-<li>Which that could have created my project initially how I wanted</li>
+<li>Which that I could have created my project initially how I wanted</li>
 <li>Properly setup passport on the application</li>
 <li>Have all my models connect</li>
 <li>Definitely style the page way better, I wanted to change the background color to red buy the street fighter logo has a background and it's white.</li>
+<li>
 </ul>
 
 ## Special Thanks
