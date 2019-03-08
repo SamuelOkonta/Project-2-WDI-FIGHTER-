@@ -1,8 +1,3 @@
-module.exports = userController
-
-const express = require('express')
-const Character = require('../models/Character')
-const Comment = require('../models/Comment')
 const User = require('../models/User')
 
 const userController = {
