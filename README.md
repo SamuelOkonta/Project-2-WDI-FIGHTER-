@@ -3,7 +3,7 @@
 <ul>
 <li>Project: https://dashboard.heroku.com/apps/cryptic-thicket-10914</li>
 <li>Trello Board: https://trello.com/b/uyUahpJ5/street-fighter-forum-project</li>
-<li>GitHub: hhttps://github.com/SamuelOkonta/Project-2-WDI-FIGHTER-</li>
+<li>GitHub: https://github.com/SamuelOkonta/Project-2-WDI-FIGHTER-</li>
 </ul>
 
 ## Technical Specifications
