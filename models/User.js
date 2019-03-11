@@ -1,7 +1,7 @@
-const mongoose = require("../db/connection");
+const mongoose = require("../db/connection.js");
 const Schema = mongoose.Schema;
 
-// initialize the schema with a configuration object
+
 const User = new Schema({
     email: String,
     password: String,

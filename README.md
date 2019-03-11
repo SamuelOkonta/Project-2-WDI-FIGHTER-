@@ -1,4 +1,4 @@
-# Project 2 WDI Fighters
+# Project 2: WDI Fighters
 
 <ul>
 <li>Project: https://floating-shore-60451.herokuapp.com/</li>
