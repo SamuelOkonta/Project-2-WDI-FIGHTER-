@@ -1,6 +1,6 @@
 const Comment = require('../models/Comment')
 const User = require('../models/User')
-// const Character = require('../models/Character')
+
 
 
 const commentController = {

@@ -38,6 +38,6 @@ Languages: HTML, CSS, JavaScript, Handle Bars, Node.js, Express, MongoDB, Mongoo
 
 ## Special Thanks
 <ul>
-<li> The entire class, this project has been a complete struggle for me but I'm glad I got it done.</li>
+<li> The entire class, this project has been a complete struggle for me but I'm glad I able to work through it.</li>
 </ul>
 

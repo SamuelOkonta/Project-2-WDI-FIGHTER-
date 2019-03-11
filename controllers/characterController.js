@@ -1,5 +1,4 @@
-// const Comment = require('../models/commentController.js')
-// const User = require('../models/userController.js')
+
 const Character = require('../models/Character.js')
 
 
@@ -22,7 +21,7 @@ const characterController = {
     show: (req, res) => {
         Character.findById(req.params.characterId).then(character => {
             
-            // Comment.find(req.params.characterId).then(comments => {
+         
                 res.render('character/show', { character })   
             })
         
@@ -33,7 +32,7 @@ const characterController = {
         })
     },
     update: (req, res) => {
-        //Need to pass {new:true} as the third argument in order to get theupdated shop from the db
+   
         Character.findByIdAndUpdate(req.params.characterId, req.body, { new: true }).then(() => {
             res.redirect(`/characters/${req.params.characterId}`)
         })
